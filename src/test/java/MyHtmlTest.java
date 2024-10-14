@@ -8,7 +8,7 @@ public class MyHtmlTest {
 
     @Test
     public void testHomePageAvailability() throws IOException {
-        String siteUrl = "http://localhost/index.html";  // Change to your website URL
+        String siteUrl = "http://localhost/";  // Change to your website URL
         URL url = new URL(siteUrl);
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
         connection.setRequestMethod("GET");
